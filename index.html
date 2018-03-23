@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>环信</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+	</head>
+
+	<body>
+		<header style="background-color: #4EB1F4;">
+			<nav class="navbar">
+				<div class="container">
+					<div class="container_left">
+						<a class="logo"><img src="img/logo.png" /></a>
+					</div>
+					<div class="nav">
+						<ul class="navul navdingwei">
+							<li><a href="">首页</a></li>
+							<li class="highlight"><a href="">即时通讯云</a>
+								<div class="sub-menu lite">
+									<ul class="list-unstyled">
+										<li><a href="">功能</a></li>
+										<li><a href="">案例</a></li>
+										<li><a href="">价格</a></li>
+										<li><a href="">文档</a></li>
+										<li><a href="">下载</a></li>
+										<li><a href="">直播方案</a></li>
+										<li><a href="">人脸特效</a></li>
+										<li><a href="">社交大数据</a></li>
+										<li><a href="">短信</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="highlight"><a href="">客户互动云</a>
+								<div class="sub-menu lite">
+									<ul class="list-unstyled">
+										<li><a href="">功能</a></li>
+										<li><a href="">案例</a></li>
+										<li><a href="">价格</a></li>
+										<li><a href="">文档</a></li>
+										<li><a href="">下载</a></li>
+										<li><a href="">视频客服</a></li>
+										<li><a href="">工单</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class=""><a href="" rel="nofollow">案例</a>
+								<div class="sub-menu lite">
+									<ul class="list-unstyled">
+										<li><a href="">即时通讯云</a></li>
+										<li><a href="">客户互动云</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="">价格</a>
+								<div class="sub-menu lite">
+									<ul class="list-unstyled">
+										<li><a href="">即时通讯云</a></li>
+										<li><a href="">客户互动云</a></li>
+										<li><a href="">私有化部署</a></li>
+										<li><a href="">客服私有云</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="">文档</a>
+								<div class="sub-menu lite">
+									<ul class="list-unstyled">
+										<li><a href="">即时通讯云v3</a></li>
+										<li><a href="">即时通讯云v2</a></li>
+										<li><a href="">客户互动云</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="">下载</a>
+								<div class="sub-menu lite">
+									<ul class="list-unstyled">
+										<li><a href="">即时通讯云</a></li>
+										<li><a href="">客户互动云</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="">社区</a>
+								<div class="sub-menu lite">
+									<ul class="list-unstyled">
+										<li><a href="">问题</a></li>
+										<li><a href="">活动</a></li>
+										<li><a href="">视频</a></li>
+										<li><a href="">代码</a></li>
+										<li><a href="">文章</a></li>
+										<li><a href="">帮助</a></li>
+										<li><a href="">话题</a></li>
+									</ul>
+									<ul class="list-unstyled extend">
+										<li><a href="">环信周刊</a></li>
+										<li><a href="">新闻资讯</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="lianniu"><button class="dl bt" type="button">登录</button>
+								<div class="sub-menu2 login-register lite">
+									<ul class="list-unstyled">
+										<li class="active1"><a href="" rel="nofollow">登录即时通讯云</a></li>
+										<li class="active2"><a href="" rel="nofollow">登录客户互动云</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="lianniu"><button class="zc" type="button">注册</button>
+								<div class="sub-menu2 login-register bulu">
+									<ul class="list-unstyled">
+										<li class="active1"><a href="" rel="nofollow">注册即时通讯云</a></li>
+										<li class="active2"><a href="" rel="nofollow">注册客户互动云</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href=""><i class="iconfont icon-haiwaiban"></i>海外</a></li>
+						</ul>
+					</div>
+			</nav>
+			</div>
+		</header>
+		<div class="banner" style="background-image: url(https://www.easemob.com/themes/official_v3/Public/img/pricing_v3/banner.jpg);">
+			<div class="container">
+				<div class="text-box text-center">
+					<h1 class="title">零成本开启您的环信云端之旅</h1>
+					<div class="switch-box im active">
+						<a class="btn btn-lg btn-inverse" rel="nofollow" id="a">免费使用</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<nav class="switcher">
+				<a class="cs active" id="cs" onclick="dianji()">客户互动云</a><a class="im active" id="im" onclick="dianji2()">即时通讯云</a><a class="private" id="sy" onclick="dianji3()">私有化部署</a>
+			</nav>
+			<div class="switch-box kh active" id="kh">
+				<h3 class="main-title">客户互动云收费标准</h3>
+				<div class="content">
+					<div class="row1 intro-card">
+						<div class="col-md-a">
+							<div class="item">
+								<h5 class="head bg-free">试用版 · <big><strong></strong></big>2周免费</h5>
+								<div class="body">
+									<p class="font-free">全功能不限坐席数免费体验<br>&nbsp;</p>
+									<div class="action"> <a class="btn bg-free" rel="nofollow">即刻试用</a> </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-a">
+							<div class="item">
+								<h5 class="head bg-normal">标准版 · <big><strong>1800</strong></big> 元/年/坐席</h5>
+								<div class="body">
+									<p class="font-normal">享受强大的环信客户互动云基础功能<br>&nbsp;</p>
+									<div class="action"> <a class="btn bg-normal" rel="nofollow">即刻使用</a> </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-a">
+							<div class="item">
+								<h5 class="head bg-enterprise">旗舰版 · <big><strong>4800</strong></big> 元/年/坐席</h5>
+								<div class="body">
+									<p class="font-enterprise">享受丰富的旗舰版功能，VIP增值服务<br>与专属的客户成功经理</p>
+									<div class="action"> <a class="btn bg-enterprise kf-biz">联系我们</a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--content中部table内容-->
+					<div class="detail">
+						<h4 class="table-title">环信客户互动云版本功能对比</h4>
+						<div class="table-responsive">
+							<table class="table table-bordered">
+								<tbody>
+									<tr>
+										<td colspan="2" width="40%" class="highlight"></td>
+										<td width="20%" class="font-free"><strong>试用版</strong></td>
+										<td width="20%" class="font-normal"><strong>标准版</strong></td>
+										<td width="20%" class="font-enterprise"><strong>旗舰版</strong></td>
+									</tr>
+									<tr>
+										<td colspan="2" class="highlight">价格</td>
+										<td>免费</td>
+										<td>1800元/年/坐席</td>
+										<td>4800元/年/坐席</td>
+									</tr>
+									<tr>
+										<td colspan="2" class="highlight">使用期限</td>
+										<td>2周</td>
+										<td>不限</td>
+										<td>不限</td>
+									</tr>
+									<tr>
+										<td rowspan="3" class="highlight">基础功能</td>
+										<td class="left">最大坐席数</td>
+										<td>不限</td>
+										<td>不限</td>
+										<td>不限</td>
+									</tr>
+									<tr>
+										<td class="left"><a>多渠道接入</a></td>
+										<td>App、网页、微信、微博、<strong>REST API接入[增值服务<sup>*</sup>]</strong>、<strong>Slack渠道接入[增值服务<sup>*</sup>]</strong></td>
+										<td colspan="2">App、网页、微信、微博、<br><strong>呼叫中心接入[增值服务<sup>*</sup>]</strong>、<strong>REST API接入[增值服务<sup>*</sup>]</strong>、<strong>Slack渠道接入[增值服务<sup>*</sup>]</strong></td>
+									</tr>
+									<tr>
+										<td class="left">富媒体消息</td>
+										<td colspan="3">文字、表情、语音、图片、自定义图文消息</td>
+									</tr>
+									<tr>
+										<td rowspan="22" class="highlight">客服工作台</td>
+										<td class="left">Web版工作台</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">iOS App工作台</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">Android App工作台</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">PC版工作台</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left"><a href="">留言功能</a></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">满意度评价</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">智能常用语</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">多级会话标签</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">显示APP访客端设备信息</td>
+										<td></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">显示排队人数</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">消息预知</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">消息撤回</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">显示客服输入状态</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">关键字匹配</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">主动发起会话</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">实时视频</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">延长历史会话保存期和查看范围</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">调整最大接待人数上限</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">调查问卷</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">现场监控</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">技能组溢出</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">多时间计划</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td rowspan="5" class="highlight">报表及KPI</td>
+										<td class="left">绩效报表</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left"><a href="">数据导出</a></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left"><a href="">质检</a></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left"><a href="">实时监控</a></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">自定义报表</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td rowspan="8" class="highlight">开放平台及定制</td>
+										<td class="left">自定义企业形象（访客端展示）</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">自定义企业logo（访客端展示）</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left"><a href="">CRM系统对接</a></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">多级租户体系</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">API访问</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left"><a href="">自定义事件推送</a></td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">企业定制域名</td>
+										<td></td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">自定义企业登录页</td>
+										<td></td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td rowspan="5" class="highlight">客户管理</td>
+										<td class="left"><a href="">客户中心</a></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">访客标签</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">客户资料自定义</td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">访客轨迹分析</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">网站访客统计</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="highlight">工单</td>
+										<td class="left">融合工单</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td rowspan="8" class="highlight">人工智能及大数据</td>
+										<td class="left"><a href="">智能问答机器人</a></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">敏感词过滤</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i></td>
+									</tr>
+									<tr>
+										<td class="left">智能人机协作</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">智能质检</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left"><a href="">客户声音</a></td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">问答优化</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">多机器人</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td class="left">自定义H5表单</td>
+										<td></td>
+										<td>增值服务<sup>*</sup></td>
+										<td>增值服务<sup>*</sup></td>
+									</tr>
+									<tr>
+										<td rowspan="2" class="highlight">支持与服务</td>
+										<td class="left">技术支持</td>
+										<td>论坛自助支持</td>
+										<td>5x8小时在线支持</td>
+										<td>7x24小时紧急响应<br><small class="text-muted">10个坐席及以下不包含</small></td>
+									</tr>
+									<tr>
+										<td class="left">专属的客户成功经理</td>
+										<td></td>
+										<td></td>
+										<td><i class="iconfont icon-duigou_jiage highlight"></i><br><small class="text-muted">10个坐席及以下不包含</small></td>
+									</tr>
+									<tr>
+										<td colspan="2" class="highlight"></td>
+										<td class="td-padding"><a class="btn bg-free" href="" rel="nofollow">即刻试用</a></td>
+										<td class="td-padding"><a class="btn bg-normal" href="" rel="nofollow">即刻使用</a></td>
+										<td class="td-padding"><a class="btn bg-enterprise kf-biz">联系我们</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="note">
+							<div class="item">
+								<p><span class="num">*&nbsp;&nbsp;</span>增值服务</p>
+								<div class="indent">
+									<p>增值服务为单独购买项目，如需开通请联系商务单独购买。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="switch-box im" id="js">
+				<h3 class="main-title">即时通讯云收费标准</h3>
+				<div class="content">
+					<div class="row2 intro-card">
+						<div class="col-md-2"></div>
+						<div class="col-md-4">
+							<div class="item">
+								<h5 class="head bg-basic">社区版</h5>
+								<div class="body">
+									<p class="text text-basic"> <span>日活30万以下免费使用</span> <span>提供免费存储空间和基础服务</span> <span>多平台SDK及代码示例</span> <span>非商业用途<br>&nbsp;<br>&nbsp;</span> </p>
+									<div class="action"> <a class="btn bg-basic" rel="nofollow">即刻使用</a> </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="item">
+								<h5 class="head bg-enterprise">企业版</h5>
+								<div class="body">
+									<p class="text text-enterprise"> <span>可迁移VIP集群实现99.9%的服务高可用</span> <span>根据日活用户数阶梯弹性付费，灵活扩容</span> <span>提供多项增值服务</span> <span>专业技术支持</span> </p>
+									<div class="action"> <a class="btn bg-enterprise im-biz">联系商务</a> </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+					<div class="detail">
+						<h4 class="text-center highlight title">环信即时通讯云版本功能比较</h4>
+						<div class="table-responsive">
+							<table class="table table-bordered">
+								<tbody>
+									<tr class="table-head">
+										<td width="50%" class="bg-basic">功能模块</td>
+										<td width="25%" class="bg-basic"><strong>社区版</strong></td>
+										<td width="25%" class="bg-enterprise"><strong>企业版</strong></td>
+									</tr>
+									<tr class="group-head">
+										<td colspan="3" class="left">基础通信功能</td>
+									</tr>
+									<tr>
+										<td class="left" width="30%">单聊</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic" width="25%"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise" width="25%"></i></td>
+									</tr>
+									<tr>
+										<td class="left">群聊</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">富媒体消息<br><small class="text-muted">文字/表情/语音/地理位置/照片/视频/名片/自定义消息</small></td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">消息回执</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">集成第三方用户体系</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">离线消息</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">离线消息推送</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">实时音频</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">实时视频</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<!--tr class="group-head"> <td colspan="3" class="left">扩展功能</td> </tr> <tr> <td class="left">聊天记录自由导出</td> <td><i class="iconfont icon-duigou_jiage font-basic"></i></td> <td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td> </tr> <tr> <td class="left">支持通过服务端发送广播消息</td> <td><i class="iconfont icon-duigou_jiage font-basic"></i></td> <td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td> </tr> <tr> <td class="left">创建多个APP</td> <td><i class="iconfont icon-duigou_jiage font-basic"></i></td> <td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td> </tr-->
+									<tr class="group-head">
+										<td colspan="3" class="left">多平台SDK及示例</td>
+									</tr>
+									<tr>
+										<td class="left">iOS SDK + DEMO</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">Android SDK + DEMO</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">Web IM SDK + DEMO</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">Windows SDK + DEMO</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr>
+										<td class="left">Linux SDK</td>
+										<td><i class="iconfont icon-duigou_jiage font-basic"></i></td>
+										<td><i class="iconfont icon-duigou_jiage font-enterprise"></i></td>
+									</tr>
+									<tr class="group-head">
+										<td colspan="3" class="left">使用限制</td>
+									</tr>
+									<tr>
+										<td class="left">注册用户数</td>
+										<td>无限制</td>
+										<td>无限制</td>
+									</tr>
+									<tr>
+										<td class="left">DAU（最高日活跃用户）</td>
+										<td>30万以下</td>
+										<td>根据DAU付费，更多请联系商务</td>
+									</tr>
+									<tr>
+										<td class="left">每日系统推送消息数<sup><a href="#im-footnote-1">1</a></sup></td>
+										<td>2万以下</td>
+										<td>请联系商务</td>
+									</tr>
+									<tr>
+										<td class="left">创建群组/聊天室数量</td>
+										<td>2万以下</td>
+										<td>10万以下<br><span class="star">*</span> <small class="text-muted">如需增加群组/聊天室数量请联系商务</small></td>
+									</tr>
+									<tr>
+										<td class="left">注册/发消息接口限流</td>
+										<td><a href="http://docs.easemob.com/start/450errorcode/45restastrict" target="blank">10次/秒</a><br><span class="star">*</span> <small class="text-muted">不可增加限流</small></td>
+										<td><a href="http://docs.easemob.com/start/450errorcode/45restastrict" target="blank">30次/秒</a><br><span class="star">*</span> <small class="text-muted">如需提高限流请联系商务</small></td>
+									</tr>
+									<tr>
+										<td class="left">其他接口限流（下载聊天记录除外）</td>
+										<td><a href="http://docs.easemob.com/start/450errorcode/45restastrict" target="blank">10次/秒</a><br><span class="star">*</span> <small class="text-muted">不可增加限流</small></td>
+										<td><a href="http://docs.easemob.com/start/450errorcode/45restastrict" target="blank">30次/秒</a><br><span class="star">*</span> <small class="text-muted">如需提高限流请联系商务</small></td>
+									</tr>
+									<tr class="group-head">
+										<td colspan="3" class="left">存储空间</td>
+									</tr>
+									<tr>
+										<td class="left">单用户离线消息保存时间</td>
+										<td>7天</td>
+										<td>7天</td>
+									</tr>
+									<tr>
+										<td class="left">单聊离线消息保存数量</td>
+										<td>500条</td>
+										<td>500条</td>
+									</tr>
+									<tr>
+										<td class="left">群聊离线消息保存数量</td>
+										<td>500条（单个群上限200条）</td>
+										<td>500条（单个群上限200条）</td>
+									</tr>
+									<tr>
+										<td class="left">聊天历史记录保存时间<br><small class="text-muted">包括图片语音等附件类型，不限容量和条数</small></td>
+										<td>3天</td>
+										<td>3天<br><span class="star">*</span> <small class="text-muted">如需延长时间请联系商务</small></td>
+									</tr>
+									<tr class="group-head">
+										<td colspan="3" class="left">增值服务</td>
+									</tr>
+									<tr>
+										<td class="left">敏感词过滤</td>
+										<td>不可开通</td>
+										<td>免费开通默认词库<br><span class="star">*</span> <small class="text-muted">如需自定义词库请联系商务</small></td>
+									</tr>
+									<tr>
+										<td class="left"><a href="" >反垃圾服务</a><sup><a href="#im-footnote-2">2</a></sup></td>
+										<td>不可开通</td>
+										<td>如需开通请联系商务</td>
+									</tr>
+									<tr>
+										<td class="left">实时路由<sup><a href="#im-footnote-3">3</a></sup></td>
+										<td>不可开通</td>
+										<td>如需开通请联系商务</td>
+									</tr>
+									<tr>
+										<td class="left">多端同步<sup><a href="#im-footnote-4">4</a></sup></td>
+										<td>不可开通</td>
+										<td>如需开通请联系商务</td>
+									</tr>
+									<tr>
+										<td class="left">多设备同步<sup><a href="#im-footnote-5">5</a></sup></td>
+										<td>不可开通</td>
+										<td>如需开通请联系商务</td>
+									</tr>
+									<tr>
+										<td class="left">消息优先通道</td>
+										<td>不可开通</td>
+										<td>如需开通请联系商务</td>
+									</tr>
+									<tr>
+										<td class="left"><a href="" >红包功能</a><sup><a href="#im-footnote-6">6</a></sup></td>
+										<td>红包发送总额不超过5000元</td>
+										<td>可联系商务开通更高额度</td>
+									</tr>
+									<tr>
+										<td class="left">实时音视频</td>
+										<td class="td-padding">免费体验10000分钟<br><span class="star">*</span> <small class="text-muted">体验期过后按照如下标准收费：<br>语音通话：5.4元/1000分钟<br>视频聊天：23元/1000分钟</small></td>
+										<td class="td-padding">免费体验10000分钟<br><span class="star">*</span> <small class="text-muted">体验期过后按照如下标准收费：<br>语音通话：4.8元/1000分钟<br>视频聊天：20元/1000分钟</small></td>
+									</tr>
+									<tr>
+										<td class="left"><a href="" >大数据平台</a></td>
+										<td>基础指标</td>
+										<td>企业特权指标及VIP开通权限</td>
+									</tr>
+									<tr>
+										<td class="left">VIP集群<sup><a href="#im-footnote-7">7</a></sup></td>
+										<td>普通集群<br><span class="star">*</span> <small class="text-muted">不可迁移VIP集群</small></td>
+										<td>默认使用普通集群<br><span class="star">*</span> <small class="text-muted">申请迁移到VIP集群请联系商务</small></td>
+									</tr>
+									<tr>
+										<td class="highlight"></td>
+										<td class="td-full-button"><a class="btn bg-basic" href=""  rel="nofollow">即刻使用</a></td>
+										<td class="td-full-button"><a class="btn bg-enterprise im-biz" href="javascript:;">联系商务</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="note">
+							<div id="im-footnote-1" class="item">
+								<p><span class="num">1&nbsp;&nbsp;</span>每日系统推送消息数</p>
+								<div class="indent">
+									<p>每日系统推送消息数是指APP每天通过REST接口发送给用户的消息数量（以消息接收方计算）。</p>
+								</div>
+							</div>
+							<div id="im-footnote-2" class="item">
+								<p><span class="num">2&nbsp;&nbsp;</span>反垃圾服务</p>
+								<div class="indent">
+									<p>环信反垃圾服务包括基于行为分析的spammer识别系统和关键词过滤系统，使用高效、准确的机器学习模型对恶意机器程序和用户spam进行智能识别，自动拦截垃圾信息，过滤非法政治言论以及色情信息。同时支持实时策略部署，帮助客户紧急拦截临时爆发的spam，使您的APP和用户免受垃圾信息骚扰，降低政策方面的违规风险。在反垃圾过程中，环信会对所有应用的用户ID做匿名处理，充分保护用户隐私。</p>
+								</div>
+							</div>
+							<div id="im-footnote-3" class="item">
+								<p><span class="num">3&nbsp;&nbsp;</span>实时路由</p>
+								<div class="indent">
+									<p>实时消息路由可以把发送至环信的上行消息实时推送给指定的服务器。从而实时获取聊天记录或者实现一些定制化的业务场景，比如针对客户消息的内容进行自动回复等等。<a href="" >[详细使用指南]</a></p>
+									<p><small>注：如果您对获取聊天消息没有实时性需求，可以直接通过免费的 <a href="" >[聊天记录拉取REST API]</a> 获取聊天记录。</small></p>
+								</div>
+							</div>
+							<div id="im-footnote-4" class="item">
+								<p><span class="num">4&nbsp;&nbsp;</span>多端同步</p>
+								<div class="indent">
+									<p>多端同步是指允许同一ID在不同的平台(如Web和APP)同时登录，并实时同步消息。</p>
+								</div>
+							</div>
+							<div id="im-footnote-5" class="item">
+								<p><span class="num">5&nbsp;&nbsp;</span>多设备同步</p>
+								<div class="indent">
+									<p>多设备同步是指用户在同一平台可同时登录多个设备并且在线消息在这些设备之间实时同步。</p>
+								</div>
+							</div>
+							<div id="im-footnote-6" class="item">
+								<p><span class="num">6&nbsp;&nbsp;</span>红包功能</p>
+								<div class="indent">
+									<p>为开发者提供安全、专业、可快速集成的红包功能，为用户匹配零钱（钱包系统），支持用户在聊天场景下收发一对一红包，群红包，专属红包，商户拥有自己的后台，可查看红包功能相关统计信息。</p>
+								</div>
+							</div>
+							<div id="im-footnote-7" class="item">
+								<p><span class="num">7&nbsp;&nbsp;</span>VIP集群</p>
+								<div class="indent">
+									<p>VIP集群提供更高的系统冗余度和专职运维响应，确保SLA不低于99.9%，与普通集群的对比如下表所示。</p>
+								</div>
+							</div>
+						</div>
+						<div class="table-responsive" style="margin-bottom:30px">
+							<table class="table table-bordered vip">
+								<tbody>
+									<tr class="group-head">
+										<td width="20%"><strong>项目</strong></td>
+										<td width="40%"><strong>普通集群</strong></td>
+										<td width="40%"><strong>VIP集群</strong></td>
+									</tr>
+									<tr>
+										<td class="left">集群冗余度</td>
+										<td>20%</td>
+										<td>50%</td>
+									</tr>
+									<tr>
+										<td class="left">运维保障</td>
+										<td>标准运维保障，1小时内响应</td>
+										<td>专职运维保障，15分钟响应</td>
+									</tr>
+									<tr>
+										<td class="left">用户成熟度</td>
+										<td>任何用户都可上线</td>
+										<td>用户需通过测试</td>
+									</tr>
+									<tr>
+										<td class="left">版本发布策略</td>
+										<td>最新版本优先上线</td>
+										<td>晚于普通集群，验证通过的稳定版本</td>
+									</tr>
+									<tr>
+										<td class="left">SLA承诺</td>
+										<td>-</td>
+										<td>99.90%</td>
+									</tr>
+									<tr>
+										<td class="left">是否开放注册环境</td>
+										<td>是</td>
+										<td>否</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="switch-box private" id="private">
+				<h3 class="main-title">私有化部署服务</h3>
+				<div class="content">
+					<h5 class="intro text-center">环信即时通讯云和环信客户互动云可根据企业需求提供定制化私有部署解决方案，让企业通讯和服务更简单。<br class="hidden-xs">同时专业的技术人员全程参与整个解决方案部署和售后，让客户更安心。</h5>
+					<div class="rowsy">
+						<div class="col-sm-6 column"> <span class="icon iconfont icon-syh_dingzhi"></span>
+							<h4 class="head">专属定制功能</h4>
+							<h5 class="text">根据APP或企业需求，定制化部署需求功能，让需求更准确</h5> </div>
+						<div class="col-sm-6 column"> <span class="icon iconfont icon-syh_yingjixiangying"></span>
+							<h4 class="head">优先应急响应</h4>
+							<h5 class="text">专属定制方案实施，优先保证用户的响应时间</h5> </div>
+						<div class="col-sm-6 column"> <span class="icon iconfont icon-syh_genzongzhichi"></span>
+							<h4 class="head">全程跟踪支持</h4>
+							<h5 class="text">在整个制定和实施的过程中，工程师全程根踪，随时处理突发问题</h5> </div>
+						<div class="col-sm-6 column"> <span class="icon iconfont icon-syh_zhuanjiafuwu"></span>
+							<h4 class="head">资深专家团队服务</h4>
+							<h5 class="text">团队人员由资深即时通讯云和客户互动云专家组成，有力保障工程质量</h5> </div>
+					</div><a class="contact" rel="nofollow"><span>咨询电话：400-612-1986</span></a></div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="footer-left">
+						<div class="footer-left-ul">
+							<h6>即时通讯云</h6>
+							<ul class="footer-list-unstyled">
+								<li><a href="">快速注册</a></li>
+								<li><a href="">快速下载</a></li>
+								<li><a href="">Android集成</a></li>
+								<li><a href="">ios集成</a></li>
+								<li><a href="">webIM集成</a></li>
+								<li><a href="">Linux集成</a></li>
+								<li><a href="">REST集成</a></li>
+								<li><a href="">视频介绍</a></li>
+								<li><a href="">产品介绍</a></li>
+								<li><a href="">用户案例</a></li>
+							</ul>
+						</div>
+						<div class="footer-left-ul">
+							<h6>客户互动云</h6>
+							<ul class="footer-list-unstyled">
+								<li><a href="">快速注册</a></li>
+								<li><a href="">快速下载</a></li>
+								<li><a href="">快速体验</a></li>
+								<li><a href="">APP集成</a></li>
+								<li><a href="">微信集成</a></li>
+								<li><a href="">网页集成</a></li>
+								<li><a href="">微博集成</a></li>
+								<li><a href="">视频介绍</a></li>
+								<li><a href="">产品价格</a></li>
+								<li><a href="">用户案例</a></li>
+							</ul>
+						</div>
+						<div class="footer-left-ul">
+							<h6>环信社区</h6>
+							<ul class="footer-list-unstyled">
+								<li><a href="">在线问答</a></li>
+								<li><a href="">知识库</a></li>
+								<li><a href="">文章</a></li>
+								<li><a href="">在线视频</a></li>
+								<li><a href="">开源代码</a></li>
+								<li><a href="">新闻资讯</a></li>
+								<li><a href="">帮助中心</a></li>
+								<li><a href="">最新活动</a></li>
+								<li><a href="">往期活动</a></li>
+							</ul>
+						</div>
+						<div class="footer-left-ul">
+							<h6>合作伙伴</h6>
+							<ul class="footer-list-unstyled">
+								<li><a href="">行业伙伴</a></li>
+								<li><a href="">SaaS平台</a></li>
+							</ul>
+						</div>
+						<div class="footer-left-ul">
+							<h6>关于我们</h6>
+							<ul class="footer-list-unstyled">
+								<li><a href="">公司介绍</a></li>
+								<li><a href="">荣誉资质</a></li>
+								<li><a href="">市场报告</a></li>
+								<li><a href="">媒体报道</a></li>
+								<li><a href="">投资机构</a></li>
+								<li><a href="">联系我们</a></li>
+								<li><a href="">加入我们</a></li>
+								<li><a href="">服务协议</a></li>
+								<li><a href="">品牌标识</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-right">
+						<div class="row">
+							<div class="footer-right-left">
+								<h6>联系我们</h6>
+								<ul class="list-unstyled">
+									<li>咨询热线：
+										<p class="phone hidden-xs">400-612-1986</p>
+									</li>
+									<li class="hidden-xs">商务合作：
+										<p><a>easemobmkt@easemob.com</a></p>
+									</li>
+								</ul>
+							</div>
+							<div class="footer-right-left">
+								<div class="social">
+									<i class="iconfont icon-add_weixin qrcode-weixin"></i>
+									<div class="weixin">
+										<img src="img/weixin.png" />
+									</div>
+									<a><i class="iconfont icon-add_weibo"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="logo-divider"><i class="logo iconfont icon-logo"></i></div>
+				<div class="row2">
+					<div class="footer-row2">
+						<p class="copyright">© 北京易掌云峰科技有限公司2016 京ICP证160482[京ICP备14026002号] [<a>SLA</a>]</p>
+					</div>
+					<div class="footer-row2">
+						<div class="certification">
+							<a><img src="img/trusted-cloud.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+	<script src="js/index.js"></script>
+
+</html>
